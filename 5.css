@@ -1,0 +1,58 @@
+.cont {
+    display: flex;
+    width: 1560px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.bo {
+    width: 500px;
+    height: 690px;
+    position: relative;
+    font-family: segoe ui;
+    color: #414141;
+   
+}
+.bo .l1{ width: 100%;}
+.bo .l2{
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.bo:hover .l2{    opacity: 1;}
+.bo .l3 {
+    display: flex;
+    
+}
+.bo .l3 .trai{
+    width: 50%;
+    
+}
+.bo .l3 .phai{
+    width: 50%;
+    text-align: end;
+}
+
+.bo .l4{
+    position: absolute;
+    bottom: -50px; left: 0;
+    opacity: 1;
+}
+.bo:hover .l4{
+    position: absolute;
+    bottom: -50px; left: 0;
+    opacity: 0;
+}
+.bo .l5{
+    position: absolute;
+    bottom: -50px; left: 0;
+    opacity: 0;
+}
+.bo:hover .l5{
+    position: absolute;
+    bottom: -50px; left: 0;
+    opacity: 1;
+}

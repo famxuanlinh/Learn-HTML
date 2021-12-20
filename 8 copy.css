@@ -1,0 +1,20 @@
+.tong {
+    height: 40px;
+    font-size: 25px;
+    font-family: seogoe UI;
+    margin: auto;
+    width: 200px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.tong .CHu {
+    position: relative;
+    top: 50px; left: 20px;
+    transition: 0.4s;
+    
+}
+.tong:hover .CHu {
+    position: relative;
+    top: 7px;
+}
+.tong:hover .CHu {}

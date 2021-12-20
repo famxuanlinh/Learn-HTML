@@ -1,0 +1,28 @@
+body,html {
+    margin: 0;
+    height: 100%;
+}
+.menu {
+    background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);
+    height: 100%;
+    background-size: cover;
+    
+}
+.menu ul{list-style: none;
+font-size: 15px;
+font-family: segoe UI;}
+
+    
+.menu ul li{ transition: 0.4s;}
+.menu ul li .icon{ display: inline;
+color: cadetblue;
+opacity: 0;
+transition: 0.4s;}
+.menu ul li{}
+.menu ul li:hover .icon{opacity: 1;
+left: 5px;}
+.menu ul li:hover{
+    margin-left: 15px;
+}
+
+.menu ul li .chu{display: inline;}

@@ -1,0 +1,34 @@
+ul.menungang {
+    
+    display: flex;
+    list-style: none;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menutren {
+    background-color: cadetblue;
+    height: 30px;
+   
+}
+
+ul.menungang a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: segoe ui light;
+    font-size: 13px;
+    display: block;
+    padding-left: 6px;
+   padding-right: 6px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   transition: 0.4s;
+
+}
+ul.menungang a:hover {
+    background-color: rgb(8, 120, 124);
+    background-color: ;
+    padding-top: 3px;
+    padding-bottom: 9px;
+}

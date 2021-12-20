@@ -1,0 +1,29 @@
+.cottrai {
+    text-decoration: none;
+    width: 500px;
+}
+.cottrai img{
+    width: 100%;
+}
+a.anhvatd {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: segoe ui light;
+   
+}
+a.anhvatd:hover{
+    color: rgb(253, 168, 253);
+}
+a.anhvatd h3 {
+    margin: 0px;
+    padding: 0px;
+}
+a.sk, a.lq {
+    text-decoration: none;
+    padding-right: 10px;
+}
+span.gio {
+    padding-right: 10px;
+}
+
+    

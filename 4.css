@@ -1,0 +1,49 @@
+.duoi{
+width: 800px;
+display: flex;
+flex-wrap: wrap;
+margin-left: 50px;
+}
+.duoi a.khoinho{
+width: 200px;
+display: flex;
+text-decoration: none;
+margin-top: 10px;
+font-family: segoe ui light;
+}
+.duoi a.khoinho img.trai{
+    width: 25px;
+    margin-right: 10px;
+}
+.duoi a.khoinho .phai{
+    width: 160px;
+    
+}
+.tren{
+width: 1000px;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+
+}
+.tren a.khoinho1 {
+    width: 77px;
+    height: 100px;
+text-decoration: none;
+font-family: segoe ui;
+text-align: center;
+
+}
+.tren a.khoinho1 img.tren{
+width: 50px;
+border-radius: 4px;
+transition: 0.4s;
+}
+.tren a.khoinho1 .duoi1 {
+
+}
+.tren a.khoinho1 img.tren:hover{
+    border: 2px gray solid;
+    width: 52px;
+}
+

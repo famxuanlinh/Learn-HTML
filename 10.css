@@ -1,0 +1,36 @@
+.menu {}
+.menu ul{
+    display: flex;
+    
+    
+    
+}
+.menu ul li{
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.menu ul li{}
+.menu ul li a{
+    text-decoration: none;
+    font-family: seogoe ui;
+    color: #414141;
+    padding: 10px 15px;
+
+    
+}
+.menu ul li a:after{
+    padding: 10px;
+    content: '/';
+    
+}
+.menu ul li a:hover{}
+a.nut {
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    font-family: segoe ui;
+    background-color: ;
+
+}
